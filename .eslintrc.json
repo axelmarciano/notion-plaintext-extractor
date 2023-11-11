@@ -9,8 +9,7 @@
     "no-null",
     "import",
     "prettier",
-    "ban",
-    "skeat"
+    "ban"
   ],
   "extends": [
     "eslint:recommended",
