@@ -124,7 +124,9 @@ export class Notion {
     pageId = this.rootPageId,
     currentDepth = 0,
   ): Promise<string[]> {
-    console.log(`Extracting block from page ${pageId}...`);
+    console.log(
+      `Extracting block from page ${pageId} (Depth: ${currentDepth})...`,
+    );
     // Try to find the result in ${pageId}.txt
     const cachedFileName = `./extracts/${pageId}.txt`;
     if (fs.existsSync(cachedFileName)) {
