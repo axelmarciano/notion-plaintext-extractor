@@ -1,0 +1,19 @@
+{
+  "parser": "typescript",
+  "trailingComma": "all",
+  "endOfLine": "lf",
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "printWidth": 80,
+  "useTabs": false,
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": "*.hbs",
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}
